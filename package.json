@@ -1,0 +1,16 @@
+{
+  "name": "taskmarket-bot",
+  "version": "1.0.0",
+  "description": "TaskMarket Telegram Bot — marketplace de tarefas com pagamentos TON",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5"
+  }
+}
