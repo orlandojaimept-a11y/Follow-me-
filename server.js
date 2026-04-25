@@ -56,38 +56,6 @@ const STRINGS = {
 
   // ── Boas-vindas ──────────────────────────────────────────────────────
 
-  welcome_new: {
-    pt: `👋 Bem-vindo ao *TaskMarket*, {nome}!\n\n📋 Completa tarefas e ganha *BNB*\n➕ Publica tarefas e paga executores\n👥 *+{bonus} BNB* por cada referência\n💎 {minRefs} referências para sacar\n\nEscolhe uma opção:`,
-    en: `👋 Welcome to *TaskMarket*, {nome}!\n\n📋 Complete tasks and earn *BNB*\n➕ Post tasks and pay executors\n👥 *+{bonus} BNB* per referral\n💎 {minRefs} referrals to withdraw\n\nChoose an option:`,
-    es: `👋 ¡Bienvenido a *TaskMarket*, {nome}!\n\n📋 Completa tareas y gana *BNB*\n➕ Publica tareas y paga ejecutores\n👥 *+{bonus} BNB* por referido\n💎 {minRefs} referidos para retirar\n\nElige una opción:`,
-    fr: `👋 Bienvenue sur *TaskMarket*, {nome}!\n\n📋 Complète des tâches et gagne des *BNB*\n➕ Publie des tâches et paye des exécuteurs\n👥 *+{bonus} BNB* par parrainage\n💎 {minRefs} parrainages pour retirer\n\nChoisis une option :`,
-    de: `👋 Willkommen bei *TaskMarket*, {nome}!\n\n📋 Erledige Aufgaben und verdiene *BNB*\n➕ Veröffentliche Aufgaben und bezahle Ausführer\n👥 *+{bonus} BNB* pro Empfehlung\n💎 {minRefs} Empfehlungen zum Auszahlen\n\nWähle eine Option:`,
-    it: `👋 Benvenuto su *TaskMarket*, {nome}!\n\n📋 Completa attività e guadagna *BNB*\n➕ Pubblica attività e paga esecutori\n👥 *+{bonus} BNB* per ogni riferimento\n💎 {minRefs} riferimenti per prelevare\n\nScegli un'opzione:`,
-    ru: `👋 Добро пожаловать в *TaskMarket*, {nome}!\n\n📋 Выполняй задания и зарабатывай *BNB*\n➕ Публикуй задания и плати исполнителям\n👥 *+{bonus} BNB* за каждого реферала\n💎 {minRefs} рефералов для вывода\n\nВыбери опцию:`,
-    uk: `👋 Ласкаво просимо до *TaskMarket*, {nome}!\n\n📋 Виконуй завдання та заробляй *BNB*\n➕ Публікуй завдання та плати виконавцям\n👥 *+{bonus} BNB* за кожного реферала\n💎 {minRefs} рефералів для виведення\n\nОбери опцію:`,
-    ar: `👋 مرحباً بك في *TaskMarket*، {nome}!\n\n📋 أكمل المهام واكسب *BNB*\n➕ انشر المهام وادفع للمنفذين\n👥 *+{bonus} BNB* لكل إحالة\n💎 {minRefs} إحالات للسحب\n\nاختر خياراً:`,
-    zh: `👋 欢迎来到 *TaskMarket*，{nome}！\n\n📋 完成任务赚取 *BNB*\n➕ 发布任务并支付执行者\n👥 每次推荐 *+{bonus} BNB*\n💎 需 {minRefs} 次推荐才能提现\n\n选择一个选项：`,
-    hi: `👋 *TaskMarket* में आपका स्वागत है, {nome}!\n\n📋 कार्य पूरा करें और *BNB* कमाएं\n➕ कार्य पोस्ट करें और एक्जीक्यूटर को भुगतान करें\n👥 प्रत्येक रेफरल पर *+{bonus} BNB*\n💎 निकासी के लिए {minRefs} रेफरल\n\nएक विकल्प चुनें:`,
-    tr: `👋 *TaskMarket*'e hoş geldin, {nome}!\n\n📋 Görevleri tamamla ve *BNB* kazan\n➕ Görev yayınla ve uygulayıcılara öde\n👥 Her yönlendirme için *+{bonus} BNB*\n💎 Çekim için {minRefs} yönlendirme\n\nBir seçenek seç:`,
-    id: `👋 Selamat datang di *TaskMarket*, {nome}!\n\n📋 Selesaikan tugas dan dapatkan *BNB*\n➕ Posting tugas dan bayar eksekutor\n👥 *+{bonus} BNB* per referral\n💎 {minRefs} referral untuk withdraw\n\nPilih opsi:`,
-  },
-
-  welcome_back: {
-    pt: `👋 Olá de novo, *{nome}*!\n\nO que queres fazer?`,
-    en: `👋 Welcome back, *{nome}*!\n\nWhat would you like to do?`,
-    es: `👋 ¡Hola de nuevo, *{nome}*!\n\n¿Qué quieres hacer?`,
-    fr: `👋 Re-bonjour, *{nome}*!\n\nQue souhaites-tu faire ?`,
-    de: `👋 Willkommen zurück, *{nome}*!\n\nWas möchtest du tun?`,
-    it: `👋 Bentornato, *{nome}*!\n\nCosa vuoi fare?`,
-    ru: `👋 С возвращением, *{nome}*!\n\nЧто хочешь сделать?`,
-    uk: `👋 З поверненням, *{nome}*!\n\nЩо хочеш зробити?`,
-    ar: `👋 أهلاً مجدداً، *{nome}*!\n\nماذا تريد أن تفعل؟`,
-    zh: `👋 欢迎回来，*{nome}*！\n\n你想做什么？`,
-    hi: `👋 फिर से स्वागत है, *{nome}*!\n\nआप क्या करना चाहते हैं?`,
-    tr: `👋 Tekrar hoş geldin, *{nome}*!\n\nNe yapmak istiyorsun?`,
-    id: `👋 Selamat datang kembali, *{nome}*!\n\nMau ngapain?`,
-  },
-
   inicio_menu: {
     pt: `👋 Olá, *{nome}*!\n\nO que queres fazer?`,
     en: `👋 Hello, *{nome}*!\n\nWhat would you like to do?`,
@@ -118,13 +86,6 @@ const STRINGS = {
     hi: `✅ *खाता बन गया!*\n\n📋 कार्य पूरा करें और *BNB* कमाएं\n👥 प्रत्येक रेफरल पर *+{bonus} BNB*\n💎 निकासी के लिए {minRefs} रेफरल\n\n👉 जमा/निकासी के लिए /wallet से अपना BSC वॉलेट दर्ज करें।`,
     tr: `✅ *Hesap oluşturuldu!*\n\n📋 Görevleri tamamla ve *BNB* kazan\n👥 Her yönlendirme için *+{bonus} BNB*\n💎 Çekim için {minRefs} yönlendirme\n\n👉 Yatırma ve çekim için /wallet ile BSC cüzdanını kaydet.`,
     id: `✅ *Akun dibuat!*\n\n📋 Selesaikan tugas dan dapatkan *BNB*\n👥 *+{bonus} BNB* per referral\n💎 {minRefs} referral untuk withdraw\n\n👉 Daftarkan wallet BSC-mu dengan /wallet untuk deposit dan withdraw.`,
-  },
-
-  use_start_first: {
-    pt: `❌ Usa /start primeiro.`, en: `❌ Use /start first.`, es: `❌ Usa /start primero.`,
-    fr: `❌ Utilise /start d'abord.`, de: `❌ Bitte zuerst /start verwenden.`, it: `❌ Usa prima /start.`,
-    ru: `❌ Сначала используй /start.`, uk: `❌ Спочатку використай /start.`, ar: `❌ استخدم /start أولاً.`,
-    zh: `❌ 请先使用 /start。`, hi: `❌ पहले /start का उपयोग करें।`, tr: `❌ Önce /start kullan.`, id: `❌ Gunakan /start dulu.`,
   },
 
   unknown_command: {
@@ -338,26 +299,6 @@ const STRINGS = {
 
   // ── Referral ─────────────────────────────────────────────────────────
 
-  referral_min_reached: {
-    pt: `✅ Atingiste o mínimo! Usa /sacar.`, en: `✅ Minimum reached! Use /sacar to withdraw.`,
-    es: `✅ ¡Mínimo alcanzado! Usa /sacar para retirar.`, fr: `✅ Minimum atteint ! Utilise /sacar pour retirer.`,
-    de: `✅ Minimum erreicht! Nutze /sacar zum Auszahlen.`, it: `✅ Minimo raggiunto! Usa /sacar per prelevare.`,
-    ru: `✅ Минимум достигнут! Используй /sacar.`, uk: `✅ Мінімум досягнуто! Використай /sacar.`,
-    ar: `✅ تم الوصول للحد الأدنى! استخدم /sacar.`, zh: `✅ 已达最低要求！使用 /sacar 提现。`,
-    hi: `✅ न्यूनतम पहुंच गया! /sacar उपयोग करें।`, tr: `✅ Minimum ulaşıldı! /sacar kullan.`,
-    id: `✅ Minimum tercapai! Gunakan /sacar.`,
-  },
-
-  referral_still_need: {
-    pt: `⏳ Faltam *{faltam}* para sacar.`, en: `⏳ *{faltam}* more to withdraw.`,
-    es: `⏳ Faltan *{faltam}* para retirar.`, fr: `⏳ Il manque *{faltam}* pour retirer.`,
-    de: `⏳ Noch *{faltam}* bis zur Auszahlung.`, it: `⏳ Mancano *{faltam}* per prelevare.`,
-    ru: `⏳ Ещё *{faltam}* до вывода.`, uk: `⏳ Ще *{faltam}* до виведення.`,
-    ar: `⏳ تحتاج *{faltam}* أخرى للسحب.`, zh: `⏳ 还需 *{faltam}* 次才能提现。`,
-    hi: `⏳ निकासी के लिए *{faltam}* और चाहिए।`, tr: `⏳ Çekim için *{faltam}* daha gerekiyor.`,
-    id: `⏳ Butuh *{faltam}* lagi untuk withdraw.`,
-  },
-
   // ── Ajuda ────────────────────────────────────────────────────────────
 
   help_text: {
@@ -378,17 +319,10 @@ const STRINGS = {
 
   // ── Buttons ──────────────────────────────────────────────────────────
 
-  btn_balance:     { pt:'💎 Saldo & Carteira', en:'💎 Balance & Wallet', es:'💎 Saldo & Cartera', fr:'💎 Solde & Portefeuille', de:'💎 Guthaben & Wallet', it:'💎 Saldo & Portafoglio', ru:'💎 Баланс', uk:'💎 Баланс', ar:'💎 الرصيد', zh:'💎 余额与钱包', hi:'💎 बैलेंस', tr:'💎 Bakiye', id:'💎 Saldo' },
-  btn_tasks:       { pt:'📋 Ver Tarefas', en:'📋 View Tasks', es:'📋 Ver Tareas', fr:'📋 Voir Tâches', de:'📋 Aufgaben', it:'📋 Attività', ru:'📋 Задания', uk:'📋 Завдання', ar:'📋 المهام', zh:'📋 查看任务', hi:'📋 कार्य', tr:'📋 Görevler', id:'📋 Lihat Tugas' },
-  btn_create:      { pt:'➕ Criar Tarefa', en:'➕ Create Task', es:'➕ Crear Tarea', fr:'➕ Créer Tâche', de:'➕ Aufgabe erstellen', it:'➕ Crea Attività', ru:'➕ Создать', uk:'➕ Створити', ar:'➕ إنشاء مهمة', zh:'➕ 创建任务', hi:'➕ कार्य बनाएं', tr:'➕ Görev Oluştur', id:'➕ Buat Tugas' },
-  btn_referral:    { pt:'👥 Referral', en:'👥 Referral', es:'👥 Referidos', fr:'👥 Parrainage', de:'👥 Empfehlung', it:'👥 Riferimento', ru:'👥 Рефералы', uk:'👥 Реферали', ar:'👥 الإحالات', zh:'👥 推荐', hi:'👥 रेफरल', tr:'👥 Yönlendirme', id:'👥 Referral' },
-  btn_my_tasks:    { pt:'📁 Minhas Tarefas', en:'📁 My Tasks', es:'📁 Mis Tareas', fr:'📁 Mes Tâches', de:'📁 Meine Aufgaben', it:'📁 Le Mie Attività', ru:'📁 Мои задания', uk:'📁 Мої завдання', ar:'📁 مهامي', zh:'📁 我的任务', hi:'📁 मेरे कार्य', tr:'📁 Görevlerim', id:'📁 Tugas Saya' },
-  btn_help:        { pt:'❓ Ajuda', en:'❓ Help', es:'❓ Ayuda', fr:'❓ Aide', de:'❓ Hilfe', it:'❓ Aiuto', ru:'❓ Помощь', uk:'❓ Допомога', ar:'❓ مساعدة', zh:'❓ 帮助', hi:'❓ सहायता', tr:'❓ Yardım', id:'❓ Bantuan' },
   btn_wallet:      { pt:'🔑 Minha Wallet', en:'🔑 My Wallet', es:'🔑 Mi Wallet', fr:'🔑 Mon Wallet', de:'🔑 Meine Wallet', it:'🔑 Il Mio Wallet', ru:'🔑 Мой кошелёк', uk:'🔑 Мій гаманець', ar:'🔑 محفظتي', zh:'🔑 我的钱包', hi:'🔑 मेरा वॉलेट', tr:'🔑 Wallet\'ım', id:'🔑 Wallet Saya' },
   btn_main_menu:   { pt:'◀️ Menu Principal', en:'◀️ Main Menu', es:'◀️ Menú Principal', fr:'◀️ Menu Principal', de:'◀️ Hauptmenü', it:'◀️ Menu Principale', ru:'◀️ Главное меню', uk:'◀️ Головне меню', ar:'◀️ القائمة الرئيسية', zh:'◀️ 主菜单', hi:'◀️ मुख्य मेनू', tr:'◀️ Ana Menü', id:'◀️ Menu Utama' },
   btn_deposit:     { pt:'💰 Depositar BNB', en:'💰 Deposit BNB', es:'💰 Depositar BNB', fr:'💰 Déposer BNB', de:'💰 BNB einzahlen', it:'💰 Deposita BNB', ru:'💰 Пополнить BNB', uk:'💰 Поповнити BNB', ar:'💰 إيداع BNB', zh:'💰 充值 BNB', hi:'💰 BNB जमा', tr:'💰 BNB Yatır', id:'💰 Deposit BNB' },
   btn_withdraw:    { pt:'💸 Sacar BNB', en:'💸 Withdraw BNB', es:'💸 Retirar BNB', fr:'💸 Retirer BNB', de:'💸 BNB auszahlen', it:'💸 Preleva BNB', ru:'💸 Вывести BNB', uk:'💸 Вивести BNB', ar:'💸 سحب BNB', zh:'💸 提现 BNB', hi:'💸 BNB निकालें', tr:'💸 BNB Çek', id:'💸 Tarik BNB' },
-  btn_cancel:      { pt:'❌ Cancelar', en:'❌ Cancel', es:'❌ Cancelar', fr:'❌ Annuler', de:'❌ Abbrechen', it:'❌ Annulla', ru:'❌ Отмена', uk:'❌ Скасувати', ar:'❌ إلغاء', zh:'❌ 取消', hi:'❌ रद्द करें', tr:'❌ İptal', id:'❌ Batal' },
   btn_share_link:  { pt:'📤 Partilhar link', en:'📤 Share link', es:'📤 Compartir enlace', fr:'📤 Partager le lien', de:'📤 Link teilen', it:'📤 Condividi link', ru:'📤 Поделиться', uk:'📤 Поділитись', ar:'📤 مشاركة الرابط', zh:'📤 分享链接', hi:'📤 लिंक शेयर', tr:'📤 Linki Paylaş', id:'📤 Bagikan Link' },
   btn_register_wallet: { pt:'🔑 Registar Wallet', en:'🔑 Register Wallet', es:'🔑 Registrar Wallet', fr:'🔑 Enregistrer Wallet', de:'🔑 Wallet registrieren', it:'🔑 Registra Wallet', ru:'🔑 Зарегистрировать кошелёк', uk:'🔑 Зареєструвати гаманець', ar:'🔑 تسجيل المحفظة', zh:'🔑 注册钱包', hi:'🔑 वॉलेट दर्ज करें', tr:'🔑 Wallet Kaydet', id:'🔑 Daftar Wallet' },
 };
@@ -718,10 +652,6 @@ async function getUser(telegramId) {
   return data || null;
 }
 
-async function getUserById(id) {
-  const { data } = await supabase.from('users').select('*').eq('id', id).maybeSingle();
-  return data || null;
-}
 
 async function getOrCreateUser(from) {
   let user = await getUser(from.id);
